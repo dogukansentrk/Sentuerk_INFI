@@ -7,7 +7,7 @@ public class KundenArtikelTable {
 
     private static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/zahlen_db"; 
     private static final String USER = "root";
-    private static final String PASS = "Ottoman1453"; 
+    private static final String PASS = "****"; 
 
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(DB_URL, USER, PASS)) {
@@ -385,3 +385,4 @@ public class KundenArtikelTable {
         }
     }
 }
+
